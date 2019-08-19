@@ -23,8 +23,8 @@
 }
 
 .section-body-card {
-  height:100px;
-  width:100px;
+  height:130px;
+  width:130px;
   overflow: hidden;
   margin: 5px 0;
   box-shadow:0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
@@ -33,16 +33,16 @@
 
 .section-body-card img {
   border-radius: 10px;
-  height:100px;
-  width:100px;
+  height:130px;
+  width:130px;
 }
 
 .section-body-card-title {
   text-align: center;
   padding: 5px 0;
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Gotham Rounded medium', sans-serif;
-  width: 100px;
+  width: 130px;
   display: block;
   color: var(--section-header-p-color);
 }
@@ -58,13 +58,13 @@
 
 .section-body-large-card img {
   border-radius: 10px;
-  height:100px;
+  height:130px;
   width:260px;
 }
 
 .section-body-round-card {
-  height:80px;
-  width:80px;
+  height:100px;
+  width:100px;
   margin: 5px 0;
   overflow: hidden;
   border-radius: 50%;
@@ -72,16 +72,16 @@
 
 .section-body-round-card img {
   border-radius: 50%;
-  height:80px;
-  width:80px;
+  height:100px;
+  width:100px;
 }
 
 .section-body-round-card-title {
   text-align: center;
   padding: 5px 0;
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Gotham Rounded medium', sans-serif;
-  width: 80px;
+  width: 100px;
   display: block;
   color: var(--section-header-p-color);
 } 

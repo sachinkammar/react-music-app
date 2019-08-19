@@ -12,6 +12,7 @@
 }
 body {
     background-color: var(--home-bg-color);
+    margin-bottom: 70px
 }
 .sidebar-menu {
     background: linear-gradient(to right, var(--sidebar-menu-bg-color-one) 25%, var(--sidebar-menu-bg-color-two));
@@ -19,6 +20,7 @@ body {
     align-items: center;
     color: var(--sidebar-menu-icon-color);
     font-weight: 600;
+    font-size: 18px;
 }
 .sidebar-menu-icon {
     fill: var(--sidebar-menu-icon-color);

@@ -12,8 +12,8 @@ class App extends Component {
           <div className="sidebar-menu">
             <span>
               <svg
-                height="40px"
-                width="40px"
+                height="50px"
+                width="50px"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 188.7 123"
                 className="sidebar-menu-icon"

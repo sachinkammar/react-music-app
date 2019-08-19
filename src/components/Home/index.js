@@ -14,12 +14,11 @@ class Home extends Component {
         {"name":"I Don't Care","cover":"./img/covers/id-2.png"},
         {"name":"Goodbyes","cover":"./img/covers/id-3.jpg"},
         {"name":"ME!","cover":"./img/covers/id-4.jpg"},
-        // {"name":"","cover":"./img/covers/"},
-        // {"name":"","cover":"./img/covers/"},
-        // {"name":"","cover":"./img/covers/"},
-        // {"name":"","cover":"./img/covers/"},
-        // {"name":"","cover":"./img/covers/"},
-        // {"name":"","cover":"./img/covers/"},
+        {"name":"Fuck You","cover":"./img/covers/id-5.png"},
+        {"name":"Great Work","cover":"./img/covers/id-7.png"},
+        {"name":"Burn It Slow","cover":"./img/covers/id-8.jpg"},
+        {"name":"Still You","cover":"./img/covers/id-9.png"},
+        {"name":"Let Me Down","cover":"./img/covers/id-10.png"},
         // {"name":"","cover":"./img/covers/"},
         // {"name":"","cover":"./img/covers/"},
         // {"name":"","cover":"./img/covers/"},
@@ -30,7 +29,13 @@ class Home extends Component {
         {"name":"I Don't Care","cover":"./img/covers/id-7.png"},
         {"name":"Goodbyes","cover":"./img/covers/id-8.jpg"},
         {"name":"ME!","cover":"./img/covers/id-9.png"},
-        {"name":"ME!","cover":"./img/covers/id-10.png"}
+        {"name":"Smash It!","cover":"./img/covers/id-10.png"},
+        {"name":"Believer","cover":"./img/covers/believer.jpg"},
+        {"name":"Friction","cover":"./img/covers/friction.jpeg"},
+        {"name":"Loved By","cover":"./img/covers/id-1.jpg"},
+        {"name":"I Don't Care","cover":"./img/covers/id-2.png"},
+        {"name":"Goodbyes","cover":"./img/covers/id-3.jpg"},
+        {"name":"ME!","cover":"./img/covers/id-4.jpg"}
       ]
     }
   }
@@ -42,8 +47,9 @@ class Home extends Component {
       slidesPerView: '3',
       centeredSlides: false,
       loop: false,
-      spaceBetween: 20,
+      spaceBetween: 70,
       shouldSwiperUpdate: true,
+      freeMode: true,
       navigation: {
         nextEl: '.reviews__slider__nav--next',
         prevEl: '.reviews__slider__nav--prev'
@@ -87,11 +93,11 @@ class Home extends Component {
                   <Swiper {...params}>
                     { favouriteSongs.map((song,index)=>{
                       return (
-                        <div>
-                          <div className="section-body-card" key={index+1}>
+                        <div  key={index+1}>
+                          <div className="section-body-card">
                             <img src={song.cover} alt="song"/>
                           </div>
-                          <span className="section-body-card-title" style={{textAlign:'center',padding:5,fontSize:11}}>{song.name}</span>
+                          <span className="section-body-card-title">{song.name}</span>
                         </div>
                       )})
                     }
@@ -126,11 +132,11 @@ class Home extends Component {
                   <Swiper {...params}>
                     { favouriteSongs.slice(0).reverse().map((song,index)=>{
                       return (
-                        <div>
-                          <div className="section-body-card" key={index+1}>
+                        <div  key={index+3}>
+                          <div className="section-body-card">
                             <img src={song.cover} alt="song"/>
                           </div>
-                          <span className="section-body-card-title" style={{textAlign:'center',padding:5,fontSize:11}}>{song.name}</span>
+                          <span className="section-body-card-title">{song.name}</span>
                         </div>
                       )})
                     }
@@ -147,8 +153,8 @@ class Home extends Component {
                   <Swiper {...params}>
                     { favouriteSongs.slice(0).reverse().map((song,index)=>{
                       return (
-                        <div>
-                          <div className="section-body-round-card" key={index+1}>
+                        <div key={index+4}>
+                          <div className="section-body-round-card">
                             <img src={song.cover} alt="song"/>
                           </div>
                           <span className="section-body-round-card-title">{song.name}</span>
