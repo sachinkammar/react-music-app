@@ -10,7 +10,7 @@
 
 .section-header p {
   margin: 0;
-  font-family: 'Gotham Rounded';
+  font-family: 'Gotham Rounded Bold';
   color: var(--section-header-p-color);
 }
 .section-header span {
@@ -48,7 +48,7 @@
 }
 
 .section-body-large-card{
-  height:100px;
+  height:150px;
   width:260px !important;
   margin: 5px 0;
   overflow: hidden;
@@ -58,7 +58,7 @@
 
 .section-body-large-card img {
   border-radius: 10px;
-  height:130px;
+  height:150px;
   width:260px;
 }
 
