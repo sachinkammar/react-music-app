@@ -1,0 +1,87 @@
+.body-wrapper {
+  padding: 0 15px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.section-header p {
+  margin: 0;
+  font-family: 'Gotham Rounded';
+  color: var(--section-header-p-color);
+}
+.section-header span {
+  font-weight: 600;
+  font-family: 'Gotham Rounded Medium', sans-serif;
+  font-size: 10px;
+  vertical-align: bottom;
+  margin-top: 5px;
+  color: var(--section-header-span-color);
+}
+
+.section-body-card {
+  height:100px;
+  width:100px;
+  overflow: hidden;
+  margin: 5px 0;
+  box-shadow:0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 10px;
+}
+
+.section-body-card img {
+  border-radius: 10px;
+  height:100px;
+  width:100px;
+}
+
+.section-body-card-title {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+  font-family: 'Gotham Rounded medium', sans-serif;
+  width: 100px;
+  display: block;
+  color: var(--section-header-p-color);
+}
+
+.section-body-large-card{
+  height:100px;
+  width:260px !important;
+  margin: 5px 0;
+  overflow: hidden;
+  box-shadow:0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 10px;
+}
+
+.section-body-large-card img {
+  border-radius: 10px;
+  height:100px;
+  width:260px;
+}
+
+.section-body-round-card {
+  height:80px;
+  width:80px;
+  margin: 5px 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.section-body-round-card img {
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+}
+
+.section-body-round-card-title {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+  font-family: 'Gotham Rounded medium', sans-serif;
+  width: 80px;
+  display: block;
+  color: var(--section-header-p-color);
+} 

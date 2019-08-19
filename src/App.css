@@ -1,33 +1,27 @@
-.App {
-  text-align: center;
+:root {
+    --home-bg-color: #ffffff;
+    --app-navbar-bg-color: #ffffff; 
+    --app-navbar-color: #ccc; 
+    --app-navbar-active-color: rgba(0, 0, 0,.6); 
+    --app-navbar-shadow-color: rgba(0, 0, 0,.05); 
+    --sidebar-menu-bg-color-one: rgba(231, 135, 130, 1);
+    --sidebar-menu-bg-color-two: rgba(247, 218, 159, 1);
+    --sidebar-menu-icon-color: #ffffff;
+    --section-header-p-color:  rgba(21, 29, 77, 1);
+    --section-header-span-color: rgba(231, 135, 130, 1);
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: var(--home-bg-color);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidebar-menu {
+    background: linear-gradient(to right, var(--sidebar-menu-bg-color-one) 25%, var(--sidebar-menu-bg-color-two));
+    display: flex;
+    align-items: center;
+    color: var(--sidebar-menu-icon-color);
+    font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar-menu-icon {
+    fill: var(--sidebar-menu-icon-color);
+    margin-bottom: -5px;
+    margin-right: 20px;
 }

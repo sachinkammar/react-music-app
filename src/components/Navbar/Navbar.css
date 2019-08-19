@@ -1,0 +1,30 @@
+.app-navbar-bottom-fixed {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.app-navbar {
+  background-color: var(--app-navbar-bg-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  box-shadow: 0px 0px 13px -1px var(--app-navbar-shadow-color);
+}
+
+.app-navbar-element {
+  text-align: center;
+  font-size: 10px;
+  color: var(--app-navbar-color);
+} 
+.app-navbar-element div {
+  color: var(--app-navbar-active-color);
+}
+.selected-app-navbar-element .app-navbar-element{
+  color: var(--app-navbar-active-color) !important;
+  text-decoration: none;
+  transition: 250ms ease-in;
+}
+
+.navbar-navlink {
+  text-decoration: none !important;
+}
