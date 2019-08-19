@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-music-app/static/css/main.ef98ebee.chunk.css",
+    "main.css": "/react-music-app/static/css/main.b11a7bd9.chunk.css",
     "main.js": "/react-music-app/static/js/main.1cd3029b.chunk.js",
     "main.js.map": "/react-music-app/static/js/main.1cd3029b.chunk.js.map",
     "runtime~main.js": "/react-music-app/static/js/runtime~main.4a0f8ae7.js",
@@ -9,10 +9,10 @@
     "static/js/2.a2f89e86.chunk.js": "/react-music-app/static/js/2.a2f89e86.chunk.js",
     "static/js/2.a2f89e86.chunk.js.map": "/react-music-app/static/js/2.a2f89e86.chunk.js.map",
     "index.html": "/react-music-app/index.html",
-    "precache-manifest.8512a35bbf0fb06282b36bb983e47083.js": "/react-music-app/precache-manifest.8512a35bbf0fb06282b36bb983e47083.js",
+    "precache-manifest.e80b0a4cf730ca647966a758c754f279.js": "/react-music-app/precache-manifest.e80b0a4cf730ca647966a758c754f279.js",
     "service-worker.js": "/react-music-app/service-worker.js",
     "static/css/2.6afed8d2.chunk.css.map": "/react-music-app/static/css/2.6afed8d2.chunk.css.map",
-    "static/css/main.ef98ebee.chunk.css.map": "/react-music-app/static/css/main.ef98ebee.chunk.css.map",
+    "static/css/main.b11a7bd9.chunk.css.map": "/react-music-app/static/css/main.b11a7bd9.chunk.css.map",
     "static/media/style.css": "/react-music-app/static/media/Gotham Rounded Medium.29c9cff4.woff"
   }
 }
