@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-music-app/static/css/main.ff58663c.chunk.css",
-    "main.js": "/react-music-app/static/js/main.0da38848.chunk.js",
-    "main.js.map": "/react-music-app/static/js/main.0da38848.chunk.js.map",
+    "main.css": "/react-music-app/static/css/main.d6aa28f0.chunk.css",
+    "main.js": "/react-music-app/static/js/main.9532d232.chunk.js",
+    "main.js.map": "/react-music-app/static/js/main.9532d232.chunk.js.map",
     "runtime~main.js": "/react-music-app/static/js/runtime~main.4a0f8ae7.js",
     "runtime~main.js.map": "/react-music-app/static/js/runtime~main.4a0f8ae7.js.map",
     "static/css/2.6afed8d2.chunk.css": "/react-music-app/static/css/2.6afed8d2.chunk.css",
     "static/js/2.84553956.chunk.js": "/react-music-app/static/js/2.84553956.chunk.js",
     "static/js/2.84553956.chunk.js.map": "/react-music-app/static/js/2.84553956.chunk.js.map",
     "index.html": "/react-music-app/index.html",
-    "precache-manifest.a4624d8748809e2f07d8d20e13eac91e.js": "/react-music-app/precache-manifest.a4624d8748809e2f07d8d20e13eac91e.js",
+    "precache-manifest.b3fe520713acf7949bd26eceecee8f90.js": "/react-music-app/precache-manifest.b3fe520713acf7949bd26eceecee8f90.js",
     "service-worker.js": "/react-music-app/service-worker.js",
     "static/css/2.6afed8d2.chunk.css.map": "/react-music-app/static/css/2.6afed8d2.chunk.css.map",
-    "static/css/main.ff58663c.chunk.css.map": "/react-music-app/static/css/main.ff58663c.chunk.css.map",
+    "static/css/main.d6aa28f0.chunk.css.map": "/react-music-app/static/css/main.d6aa28f0.chunk.css.map",
     "static/media/style.css": "/react-music-app/static/media/Gotham Rounded Medium.29c9cff4.woff"
   }
 }
