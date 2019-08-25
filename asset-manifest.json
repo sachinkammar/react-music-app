@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-music-app/static/css/main.de98a63a.chunk.css",
-    "main.js": "/react-music-app/static/js/main.376bea50.chunk.js",
-    "main.js.map": "/react-music-app/static/js/main.376bea50.chunk.js.map",
+    "main.css": "/react-music-app/static/css/main.74e708e1.chunk.css",
+    "main.js": "/react-music-app/static/js/main.55da2b02.chunk.js",
+    "main.js.map": "/react-music-app/static/js/main.55da2b02.chunk.js.map",
     "runtime~main.js": "/react-music-app/static/js/runtime~main.4a0f8ae7.js",
     "runtime~main.js.map": "/react-music-app/static/js/runtime~main.4a0f8ae7.js.map",
-    "static/css/2.6afed8d2.chunk.css": "/react-music-app/static/css/2.6afed8d2.chunk.css",
-    "static/js/2.1e3f7834.chunk.js": "/react-music-app/static/js/2.1e3f7834.chunk.js",
-    "static/js/2.1e3f7834.chunk.js.map": "/react-music-app/static/js/2.1e3f7834.chunk.js.map",
+    "static/css/2.803982d3.chunk.css": "/react-music-app/static/css/2.803982d3.chunk.css",
+    "static/js/2.484d7668.chunk.js": "/react-music-app/static/js/2.484d7668.chunk.js",
+    "static/js/2.484d7668.chunk.js.map": "/react-music-app/static/js/2.484d7668.chunk.js.map",
     "index.html": "/react-music-app/index.html",
-    "precache-manifest.cfa461704e27753cab7f9afdded3a405.js": "/react-music-app/precache-manifest.cfa461704e27753cab7f9afdded3a405.js",
+    "precache-manifest.dccb26789d83e6e6852f7ccf6b053984.js": "/react-music-app/precache-manifest.dccb26789d83e6e6852f7ccf6b053984.js",
     "service-worker.js": "/react-music-app/service-worker.js",
-    "static/css/2.6afed8d2.chunk.css.map": "/react-music-app/static/css/2.6afed8d2.chunk.css.map",
-    "static/css/main.de98a63a.chunk.css.map": "/react-music-app/static/css/main.de98a63a.chunk.css.map",
+    "static/css/2.803982d3.chunk.css.map": "/react-music-app/static/css/2.803982d3.chunk.css.map",
+    "static/css/main.74e708e1.chunk.css.map": "/react-music-app/static/css/main.74e708e1.chunk.css.map",
     "static/media/style.css": "/react-music-app/static/media/Gotham Rounded Medium.29c9cff4.woff"
   }
 }
