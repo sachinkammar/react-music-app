@@ -18,10 +18,10 @@
   color: var(--app-navbar-color);
 } 
 .app-navbar-element div {
-  color: var(--app-navbar-active-color);
+  font-family: 'Gotham rounded medium',sans-serif;
 }
 .selected-app-navbar-element .app-navbar-element{
-  color: var(--app-navbar-active-color) !important;
+  color: var(--app-navbar-active-color);
   text-decoration: none;
   transition: 250ms ease-in;
 }

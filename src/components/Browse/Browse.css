@@ -1,0 +1,106 @@
+.browse-header h3{
+  font-family: 'Gotham Rounded Bold';
+  font-size: 24px;
+  color: var(--section-header-p-color);
+  animation: fadeIn 250ms ease-in;
+}
+.bowse-body {
+  padding: 5px 0;
+}
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 40px;
+  background-color: var(--browse-searchbar-bg-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-flex;
+  width: 100%;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 0px 10px 1px var(--browse-searchbar-box-shadow-color);
+  background: var(--app-navbar-bg-color);
+  animation: fadeIn 250ms ease-in;
+}
+.search_input{
+  font-family: sans-serif;
+  /* color: #3a3a3a78; */
+  border: 0;
+  padding: 0 5px;
+  outline: 0;
+  background: none;
+  width: 100%;
+  /* caret-color: #3a3a3a78; */
+  line-height: 40px;
+  cursor: text;
+  transition: 150ms ease-in-out
+}
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 100%;
+  }
+
+.search_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--section-header-p-color);
+  padding: 0 2px;
+}
+
+.browse-body-hot-songs-title {
+  padding: 15px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gotham Rounded Medium', sans-serif;
+  font-size: 16px;
+  color: var(--section-header-p-color);
+  animation: fadeIn 250ms ease-in;
+}
+.browse-body-hot-song-wrap {
+  display: flex;
+  align-items: center;
+  animation: fadeIn 250ms ease-in;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    transform: translateY(10px)
+  }
+  top{
+    opacity: 1;
+    transform: translateY(0px)
+  };
+}
+.browse-body-hot-song-body-img img{
+  border-radius: 3px;
+  height: 60px;
+  width: 70px;
+}
+.browse-body-hot-song-body {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.browse-body-hot-song-body p {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Gotham Rounded Medium',sans-serif;
+  color: var(--section-header-p-color);
+}
+.browse-body-hot-song-body span {
+  font-family: 'Gotham Rounded medium', sans-serif;
+  color: var(--track-artist-color);
+  font-size: 12px;
+}
+.browse-body-hot-song-body-song-time {
+  font-size: 14px !important;
+  font-family: 'Gotham Rounded medium', sans-serif;
+  color: var(--track-actions-color) !important;
+  margin: 0;
+}
